@@ -13,7 +13,7 @@ Lexer* init_lexer(char* content) {
     return lexer;
 }
 
-void ,advance_lexer_with_string(Lexer* lexer) {
+void advance_lexer_with_string(Lexer* lexer) {
     if(lexer->c == 32) {
 
     }
